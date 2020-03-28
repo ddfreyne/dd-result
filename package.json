@@ -1,0 +1,28 @@
+{
+  "name": "dd-result",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/result.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "types": "dist/result.d.ts",
+  "prepublish": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddfreyne/dd-result"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.2.3",
+    "prettier": "^2.0.2",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  }
+}
